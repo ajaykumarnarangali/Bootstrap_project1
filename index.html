@@ -2,213 +2,231 @@
 <html lang="en">
 
 <head>
-    <title>Boostrap project</title>
+    <title>Title</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
-        </script>
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
-        </script>
-    <link rel="stylesheet" href="./style.css">
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="cont">
-        <!-- header section starts -->
-        <nav class="navbar navbar-expand-sm custom-navbar sticky-top">
-            <div class="container-fluid ">
-                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collpasibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div id="collpasibleNavbar" class="collapse navbar-collapse">
-                    <div class="row mx-auto">
-                        <ul class="navbar-nav navbar p-2 font-size">
-                            <li class="nav-item"><a href="#"
-                                    class="nav-link active text-white border px-4 me-3 border-secondary">Homepage</a>
-                            </li>
-                            <li class="nav-item"><a href="#"
-                                    class="nav-link text-white px-4 me-3 border border-secondary">About Us</a>
-                            </li>
-                            <li class="nav-item"><a href="#"
-                                    class="nav-link text-white px-4 me-3 border border-secondary">Services</a>
-                            </li>
-                            <li class="nav-item"><a href="#"
-                                    class="nav-link text-white px-4 me-3 border border-secondary">Contact</a>
-                            </li>
-                            <li class="nav-item"><a href="#"
-                                    class="nav-link text-white px-4 border border-secondary">External</a></li>
-                        </ul>
+        <header>
+            <!-- header section starts -->
+            <nav class="navbar navbar-expand-sm custom-navbar sticky-top">
+                <div class="container-fluid ">
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collpasibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="collpasibleNavbar" class="collapse navbar-collapse">
+                        <div class="row mx-auto">
+                            <ul class="navbar-nav navbar p-2 font-size">
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link active text-white border mb-2 mb-sm-0 px-2 px-lg-4 me-2 me-md-3 border-secondary">Homepage</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link text-white mb-2 mb-sm-0 px-2 px-lg-4  me-md-3 me-2  border border-secondary">About
+                                        Us</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link text-white mb-2 mb-sm-0 px-3 px-lg-4  me-md-3 me-2  border border-secondary">Services</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link text-white mb-2 mb-sm-0 px-3 px-lg-4  me-md-3 me-2  border border-secondary">Contact</a>
+                                </li>
+                                <li class="nav-item"><a href="#"
+                                        class="nav-link text-white mb-2 mb-sm-0 px-3 px-lg-4 border me-2  border-secondary">External</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- header section ends -->
+        </header>
+        <main>
+            <!-- Banner section starts -->
+            <div class="banner position-relative  d-flex justify-content-center align-items-center">
+                <img src="./images/Banner.jpg" class="banner opacity-75 position-absolute top-0" style="z-index:-1;"
+                    alt="">
+                <div>
+                    <h1 class="text-white text-center">CONQUER</h1>
+                    <p class="text-white text-center">Simple Bootstrap Template</p>
+                </div>
+            </div>
+            <!-- Banner ends -->
+            <!-- first cards starts -->
+            <div class="container container-width card1_height mt-3 mt-lg-5 pt-3">
+                <div class="row h-100">
+                    <div class="h-100 card_color col-12 col-lg mb-4  mb-lg-0 me-lg-4 px-0 pb-2">
+                        <img src="./images/image1.jpg" alt="" class="w-100" style="height: 200px;">
+                        <div class="card-body ps-3 mt-3">
+                            <h4 class="card-title text-success fw-bold fs-5 mb-lg-3 mb-2">Bootstrap V3.3.6</h4>
+                            <p class="card-text text-dark fs-6 ">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
+                                consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-success px-4 mt-2 mb-2"><a href="#" class="fs-5">Button
+                                    Green</a></button>
+                        </div>
+                    </div>
+                    <div class="h-100 card_color col-12 col-md col-lg mb-4 mb-lg-0 me-md-4 ms-lg-2 px-0 pb-2">
+                        <img src="./images/image2.jpg" alt="" class="w-100" style="height: 200px;">
+                        <div class="card-body ps-3 mt-3">
+                            <h4 class="card-title fw-bold  text-primary fs-5 mb-lg-3 mb-2">Resposive Design</h4>
+                            <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
+                                consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-primary px-4 mt-2 mb-2"><a href="#" class="fs-5">See
+                                    Details</a></button>
+                        </div>
+                    </div>
+                    <div class="h-100 card_color col-12 col-lg col-md px-0 ms-lg-2 pb-2">
+                        <img src="./images/image3.jpg" alt="" class="w-100" style="height: 200px;">
+                        <div class="card-body ps-3 mt-3">
+                            <h4 class="card-title text-secondary fw-bold fs-5 mb-lg-3 mb-2">Parallax Layout</h4>
+                            <p class="card-text text-dark ">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
+                                consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button class="btn btn-danger px-4 mt-2 mb-2 "><a href="#" class="fs-5">Button
+                                    Red</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <!-- header section ends -->
-        <!-- Banner section starts -->
-        <div class="banner position-relative d-flex justify-content-center align-items-center">
-            <img src="./images/Banner.jpg" class="banner opacity-75 position-absolute top-0" style="z-index:-1;" alt="">
-            <div>
-                <h1 class="text-white text-center" style="font-size: 60px;line-height: 50px;">CONQUER</h1>
-                <p class="text-white text-center" style="font-size: 20px;">Simple Bootstrap Template</p>
-            </div>
-        </div>
-        <!-- Banner ends -->
-        <!--first cards starts  -->
-        <div class="container  w-75  mt-5 pt-3" style="height: 464px;">
-            <div class="row h-100">
-                <div class="h-100 card_color col me-4 px-0">
-                    <img src="./images/image1.jpg" alt="" class="w-100" style="height: 200px;">
-                    <div class="card-body ps-3 mt-3">
-                        <h4 class="card-title text-success mb-3">Bootstrap V3.3.6</h4>
-                        <p class="card-text text-secondary card_font">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
-                            consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
+            <!--first cards ends  -->
+            <!--second cards starts  -->
+            <div class="container container-width card2_height mt-3 mt-lg-5 pt-3 mb-5">
+                <div class="row h-100">
+                    <div class="h-100 card_color col-12 col-md me-lg-4 me-md-3 px-0 mb-3 mb-lg-0">
+                        <img src="./images/image4.jpg" alt="" class="w-100" style="height: 250px;">
+                        <div class="card-body px-4 text-dark">
+                            <h5 class="text-center text-secondary mt-3">Two Column Left Side</h5>
+                            <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+                                fugiat dolor similique, ab soluta impedit eaque in, ex perferendis accusamus quidem
+                                inventore debitis iste libero id? Molestiae a mollitia nesciunt.</p>
+                            <p class="card-text mb-3 mb-lg-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Tenetur soluta
+                                atque sed molestias in sapiente nostrum quos, molestiae ipsa libero! Explicabo aut
+                                facere
+                                nulla! Sequi, ducimus! Illo reprehenderit quo maxime?</p>
+                        </div>
                     </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-success px-4 mt-2"><a href="#" style="font-size: 20px;">Button
-                                Green</a></button>
-                    </div>
-                </div>
-                <div class="h-100 card_color col me-4 px-0">
-                    <img src="./images/image2.jpg" alt="" class="w-100" style="height: 200px;">
-                    <div class="card-body ps-3 mt-3">
-                        <h4 class="card-title text-primary mb-3">Resposive Design</h4>
-                        <p class="card-text text-secondary card_font">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
-                            consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-primary px-4 mt-2"><a href="#" style="font-size: 20px;">See
-                                Details</a></button>
-                    </div>
-                </div>
-                <div class="h-100 card_color col px-0">
-                    <img src="./images/image3.jpg" alt="" class="w-100" style="height: 200px;">
-                    <div class="card-body ps-3 mt-3">
-                        <h4 class="card-title text-secondary mb-3">Parallax Layout</h4>
-                        <p class="card-text text-secondary card_font">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
-                            consequatur cupiditate ipsam neque cumque, necessitatibus ad, dolore ab ut quisquam.</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button class="btn btn-danger px-4 mt-2 "><a href="#" style="font-size: 20px;">Button
-                                Red</a></button>
+                    <div class=" card_color col-12 col-md ms-lg-2 px-0">
+                        <img src="./images/image5.jpg" alt="" class="w-100" style="height: 250px;">
+                        <div class="card-body px-4 text-dark">
+                            <h5 class="text-center text-secondary mt-3">Two Column Right Side</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                                temporibus,
+                                earum fugiat maiores eveniet ea, asperiores id quas quisquam aut aliquid eum est. Quasi,
+                                natus quis quod placeat delectus quidem?</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+                                consectetur, quae accusantium perspiciatis unde, illo dolore quas possimus sit magni non
+                                culpa officiis! Quo velit repellendus nihil nesciunt, minus suscipit.</p>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button
+                                class="btn btn-light border fs-5 border-secondary mt-lg-4 mt-3 mb-lg-4 mb-2  me-5  text-secondary px-4">Read
+                                more</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--first cards ends  -->
-        <!--second cards starts  -->
-        <div class="container w-75  mt-5 pt-3 mb-5" style="height: 600px;">
-            <div class="row h-100">
-                <div class="h-100 card_color col me-4 px-0">
-                    <img src="./images/image4.jpg" alt="" class="w-100" style="height: 250px;">
-                    <div class="card-body px-4 text-secondary">
-                        <h5 class="text-secondary mt-3">Two Column Left Side</h5>
-                        <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
-                            fugiat dolor similique, ab soluta impedit eaque in, ex perferendis accusamus quidem
-                            inventore debitis iste libero id? Molestiae a mollitia nesciunt.</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur soluta
-                            atque sed molestias in sapiente nostrum quos, molestiae ipsa libero! Explicabo aut facere
-                            nulla! Sequi, ducimus! Illo reprehenderit quo maxime?</p>
-                    </div>
-                </div>
-                <div class=" card_color col ms-2 px-0">
-                    <img src="./images/image5.jpg" alt="" class="w-100" style="height: 250px;">
-                    <div class="card-body px-4 text-secondary">
-                        <h5 class="text-center mt-3">Two Column Right Side</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos temporibus,
-                            earum fugiat maiores eveniet ea, asperiores id quas quisquam aut aliquid eum est. Quasi,
-                            natus quis quod placeat delectus quidem?</p>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-                            consectetur, quae accusantium perspiciatis unde, illo dolore quas possimus sit magni non
-                            culpa officiis! Quo velit repellendus nihil nesciunt, minus suscipit.</p>
-                    </div>
-                    <div class="d-flex justify-content-end">
-                        <button style="font-size: 20px;"
-                            class="btn btn-light border border-secondary mt-4 mb-4 position-relative me-5  text-secondary px-4">Read
-                            more</button>
+            <!--second cards ends  -->
+            <!-- second banner starts -->
+            <div class="container-fluid  pt-3 px-0 banner2_height">
+                <div class="h-100 w-100  position-relative">
+                    <img src="./images/image7.jpg" alt="" class="position-absolute top-0 w-100 h-100"
+                        style="z-index: -1;">
+                    <div class="text-white d-flex flex-column justify-content-center h-100 pe-3 pe-md-0">
+                        <h1 class="text-center">Our Services</h1>
+                        <p class="fs-6 lg-fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nobis nisi
+                            delectus explicabo facere</p>
+                        <p class="fs-6 lg-fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p class="fs-6 lg-fs-5 text-center">Lorem ipsum dolor sit amet consectetur</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- second cards ends -->
-        <!-- second banner starts -->
-        <div class="container-fluid  pt-3 px-0" style="height:275px;">
-            <div class="h-100 w-100  position-relative ">
-                <img src="./images/image7.jpg" alt="" class="position-absolute top-0 w-100 h-100" style="z-index: -1;">
-                <div class="text-white d-flex flex-column align-items-center justify-content-center h-100"
-                    style="line-height: 10px;">
-                    <h1>Our Services</h1>
-                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi
-                        delectus explicabo facere</p>
-                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur</p>
+            <!-- second banner ends -->
+            <!-- third card starts -->
+            <div class="container container-width   card3_height">
+                <div class="row h-100">
+                    <div class="card_color px-0 col-12 col-md-6 col-lg me-lg-4 mb-4 mb-lg-0 each_card">
+                        <img src="./images/image8.jpg" alt="" class="w-100" style="height:265px;">
+                        <div class="card-body ps-3 mt-3 text-secondary">
+                            <h5 class="card-title mb-3 text-center fw-bolder fw-bolder">Coloumn One</h5>
+                            <p class="card-text mx-3 text-dark mb-3 mb-lg-0">Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card_color px-0 col-12 col-md col-lg me-lg-4 ms-md-2 mb-4 mb-lg-0 each_card">
+                        <img src="./images/image9.jpg" alt="" class="w-100" style="height:265px;">
+                        <div class="card-body ps-3 mt-3 text-secondary">
+                            <h5 class="card-title mb-3 text-center fw-bolder">Coloumn Two</h5>
+                            <p class="card-text mx-3 text-dark">Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button
+                                class="btn btn-light border border-secondary mt-4  text-secondary px-4 fs-5 mb-3 mb-lg-0">Read
+                                It</button>
+                        </div>
+                    </div>
+                    <div class=" card_color px-0 col-12 col-md-6 col-lg me-lg-4  mb-4 mb-md-0 each_card">
+                        <img src="./images/image10.jpg" alt="" class="w-100" style="height:265px;">
+                        <div class="card-body ps-3 mt-3 text-secondary">
+                            <h5 class="card-title mb-3 text-center fw-bolder">Coloumn Three</h5>
+                            <p class="card-text mx-3 text-dark mb-3 mb-lg-0">Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor pariatur neque ab. Dignissimos</p>
+                        </div>
+                    </div>
+                    <div class=" card_color px-0 col-12 col-md col-lg me-lg-4 mb-4 mb-md-0 ms-md-2 each_card">
+                        <img src="./images/image11.jpg" alt="" class="w-100" style="height:265px;">
+                        <div class="card-body  mt-3 text-secondary">
+                            <h5 class="card-title mb-3 text-center fw-bolder">Coloumn Four</h5>
+                            <p class="card-text ms-3 text-dark">Lorem ipsum dolor sit amet
+                                consectetur
+                                adipisicing
+                                elit. Repellendus, quia. Cum obcaecati dolor quos,</p>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button
+                                class="btn btn-light border border-secondary mt-4 fs-5 text-secondary px-4 mb-3 mb-lg-0">Details</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-        <!-- second banner ends -->
-        <!-- third card starts -->
-        <div class="container w-75" style="height:500px;margin-top: 130px;">
-            <div class="row h-100">
-                <div class="h-100 card_color px-0 col me-4">
-                    <img src="./images/image8.jpg" alt="" class="w-100" style="height:265px;">
-                    <div class="card-body ps-3 mt-3 text-secondary">
-                        <h5 class="card-title mb-3 text-center" style="font-weight: bolder;">Coloumn One</h5>
-                        <p class="card-text mx-3" style="color: rgb(78, 71, 71);">Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos, pariatur neque ab. Dignissimos sequi
-                        </p>
-                    </div>
-                </div>
-                <div class="h-100 card_color px-0 col me-4 ms-2">
-                    <img src="./images/image9.jpg" alt="" class="w-100" style="height:265px;">
-                    <div class="card-body ps-3 mt-3 text-secondary">
-                        <h5 class="card-title mb-3 text-center" style="font-weight: bolder;">Coloumn Two</h5>
-                        <p class="card-text mx-3" style="color: rgb(78, 71, 71);">Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button style="font-size: 20px;"
-                            class="btn btn-light border border-secondary mt-4  text-secondary px-4">Read
-                            It</button>
-                    </div>
-                </div>
-                <div class="h-100 card_color px-0 col me-4 ms-2">
-                    <img src="./images/image10.jpg" alt="" class="w-100" style="height:265px;">
-                    <div class="card-body ps-3 mt-3 text-secondary">
-                        <h5 class="card-title mb-3 text-center" style="font-weight: bolder;">Coloumn Three</h5>
-                        <p class="card-text mx-3" style="color: rgb(78, 71, 71);">Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor pariatur neque ab. Dignissimos</p>
-                    </div>
-                </div>
-                <div class="h-100 card_color px-0 col ms-2">
-                    <img src="./images/image11.jpg" alt="" class="w-100" style="height:265px;">
-                    <div class="card-body  mt-3 text-secondary">
-                        <h5 class="card-title mb-3 text-center" style="font-weight: bolder;">Coloumn Four</h5>
-                        <p class="card-text ms-3" style="color: rgb(78, 71, 71);">Lorem ipsum dolor sit amet consectetur
-                            adipisicing
-                            elit. Repellendus, quia. Cum obcaecati dolor quos,</p>
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button style="font-size: 20px;"
-                            class="btn btn-light border border-secondary mt-4  text-secondary px-4">Details</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- third card ends -->
-        <!-- fouth card starts -->
-        <div class="container w-75 mt-4">
-            <div class="row ">
-                <div class="card_color px-0 col">
+            <!-- third card ends -->
+            <!-- fourth  card starts -->
+            <div class="container container-width mt-4">
+                <div class="row h-100">
+                    <div class="card_color px-0 col">
                     <img src="./images/image12.jpg" alt="" class="w-100" style="height:430px;">
                     <div class="card-body pe-3">
                         <h5 class="card-title text-secondary mt-5 ms-4" style="font-weight: bolder;">One Big Column</h5>
@@ -232,25 +250,24 @@
                             more</button>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
-        <!-- fourth card ends -->
-        <!-- form section starts -->
-        <div class="container-fluid  px-0 position-relative d-flex flex-column align-items-center justify-content-center"
+            <!-- fourt card ends -->
+            <!-- form section starts -->
+            <div class="container-fluid  px-0 position-relative d-flex flex-column align-items-center justify-content-md-center form_background"
             style="height: 80vh;margin-top: 75px;">
-            <img src="./images/image13.jpg" alt="" class="position-absolute top-0 h-100 w-100 left-0 " style="z-index: -1;">
+            <img src="./images/image13.jpg" alt="" class="position-absolute top-0 h-100 w-100 left-0 d-none d-md-block " style="z-index: -1;">
             <h2 class="text-center text-white mt-4" style="font-size:35px;font-weight: 400;">Contact Form</h2>
             <div class="form_container ">
-                <div class="container bg-white opacity-50 mt-4 mb-3 card d-flex flex-column justify-content-center align-items-center"
-                    style="height: 125px;line-height: 10px;">
-                    <p class="text-dark ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi
+                <div class="container bg-white opacity-50 mt-4 mb-3 px-4 px-md-0 width card d-flex flex-column justify-content-center align-items-center form_content">
+                    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi
                         delectus explicabo facere</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Nobis nisi delectus</p>
                     <p>Lorem ipsum dolor sit amet consectetur</p>
                 </div>
-                <div class="container px-0" style="height: 140px;">
+                <div class="container px-3 px-md-0 px-0" style="height: 140px;">
                     <div class="row h-100">
-                        <div class="col">
+                        <div class="col-12 col-md mb-3 mb-md-0">
                             <div class="col-12 form_input mb-3">
                                 <input type="text" class="form_input form-control opacity-50" placeholder="Name">
                             </div>
@@ -261,18 +278,18 @@
                                 <input type="text" class="form_input form-control opacity-50" placeholder="Subject">
                             </div>
                         </div>
-                        <div class="col">
+                        <div class="col-12 col-md">
                             <div class="col-12 h-100  form_input">
                                 <input type="text" class="form_input  form-control w-100 h-100 opacity-50" placeholder="Your message here...">
                             </div>
-                            <button class="btn btn-dark border border-white py-2 px-4 mt-3" style="font-size:20px;border-radius:10px;">Send</button>
+                            <button class="btn btn-dark border border-white py-2 px-4 mt-3 ms-2 ms-md-0" style="font-size:20px;border-radius:10px;">Send</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- form section ends -->
+        </main>
     </div>
 </body>
-
 </html>
